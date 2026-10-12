@@ -37,6 +37,5 @@ class Main {
         int sum = findSum(a);
         showResult(sum);
 
-        sc.close();
     }
 }
