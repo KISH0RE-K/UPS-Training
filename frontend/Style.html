@@ -1,0 +1,64 @@
+
+<html>
+<head>
+    <title>CSS Layout</title>
+
+    <style>
+        .header {
+            background-color: teal;
+            height: 150px;
+        }
+
+        .article {
+            width: 33.33%;
+            height: 100px;
+            float: left;
+        }
+
+        .a1 { background-color: lightgreen; }
+        .a2 { background-color: lightblue; }
+        .a3 { background-color: plum; }
+        .a4 { background-color: lightgray; }
+        .a5 { background-color: orange; }
+        .a6 { background-color: lightcoral; }
+
+        .row {
+            overflow: hidden;
+        }
+
+        .footer {
+            background-color: slateblue;
+            height: 150px;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>My Layout</h2>
+
+    <div class="header">Header</div>
+
+    <section>Section 1</section>
+
+    <div class="row">
+        <article class="article a1">Article 1</article>
+        <article class="article a2">Article 2</article>
+        <article class="article a3">Article 3</article>
+    </div>
+
+    <section>Section 2</section>
+
+    <div class="row">
+        <article class="article a4">Article 4</article>
+        <article class="article a5">Article 5</article>
+        <article class="article a6">Article 6</article>
+    </div>
+
+    <section>Section 3</section>
+
+    <div class="footer">Footer</div>
+
+</body>
+</html>

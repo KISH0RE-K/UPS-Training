@@ -1,0 +1,155 @@
+
+<html>
+<head>
+    <title>Movie Rental</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #eeeeee;
+        }
+
+        header, footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: #222222;
+            color: white;
+            padding: 10px;
+        }
+
+        header nav {
+            margin-top: 20px;
+        }
+
+        #head {
+            margin-left: 30px;
+            color: orange;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        img {
+            border-radius: 15px;
+            height: 150px;
+            width: 150px;
+        }
+
+        button {
+            background-color: orange;
+            color: black;
+            border-radius: 10px;
+            padding: 8px 15px;
+            border: none;
+            transition: transform 0.2s ease-in;
+        }
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 30px;
+            gap: 40px;
+        }
+
+        .card {
+            padding-top: 20px;
+            text-align: center;
+            height: 280px;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: white;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="head">MovieZone</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Movies</a>
+            <a href="#">About</a>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2 style="text-align:center;">Available Movies</h2>
+
+        <div id="container">
+
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/w300/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Oppenheimer">
+                <h3>Oppenheimer</h3>
+                <p>Rent: ₹99</p>
+                <button>Rent Now</button>
+            </div>
+
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/w300/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg" alt="Dune">
+                <h3>Dune</h3>
+                <p>Rent: ₹89</p>
+                <button>Rent Now</button>
+            </div>
+
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/w300/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg" alt="Deadpool">
+                <h3>Deadpool</h3>
+                <p>Rent: ₹79</p>
+                <button>Rent Now</button>
+            </div>
+
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/w300/q719jXXEzOoYaps6babgKnONONX.jpg" alt="Your Name">
+                <h3>Your Name</h3>
+                <p>Rent: ₹69</p>
+                <button>Rent Now</button>
+            </div>
+
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/w300/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg" alt="Interstellar">
+                <h3>Dune part 2</h3>
+                <p>Rent: ₹99</p>
+                <button>Rent Now</button>
+            </div>
+
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/w300/5KCVkau1HEl7ZzfPsKAPM0sMiKc.jpg" alt="The Batman">
+                <h3>Shawshank redemption</h3>
+                <p>Rent: ₹89</p>
+                <button>Rent Now</button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <h3>MovieZone</h3>
+        <h4>www.moviezone.com &copy; 2026</h4>
+    </footer>
+
+</body>
+</html>
