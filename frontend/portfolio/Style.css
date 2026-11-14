@@ -1,0 +1,152 @@
+body {
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(238, 240, 232);
+    width: 100%;    
+    padding: 7px 0px;
+    font-family: 'Changa One',sans-serif;
+}
+
+#name{
+    display: flex;
+    margin-right:auto;
+    color: black;
+    padding:0px 100px;
+    font-family: 'Changa One',sans-serif;
+    letter-spacing: 1px;
+}
+
+.nav-links,a{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin-left: auto;
+    color: black;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+#home{
+    display:flex;
+    background-image: url("images/Minimalist Office Growth Desk Scene.png");
+    background-repeat: no-repeat;
+    background-size: 125% auto;
+    background-position: left -130px center  ;
+    
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.home-content{
+    flex: 1;
+    color: whitesmoke;
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.animate{
+    opacity:0;
+    animation: fadeUp 1s ease forwards; 
+    padding-right: 545px;
+}
+
+.a1{
+    padding-right: 155px;    
+}
+
+.a2{
+    padding-right: 320px;
+}
+
+.a3{
+    padding-right: 275px;
+}
+    
+.animate.a1{
+    animation:fadeSide 1s ease forwards;
+    animation-delay: 0.3s;
+}
+
+.animate.a2{
+    animation:fadeSide 1s ease forwards;
+    animation-delay: 0.5s;
+}
+
+.animate.a3{
+    animation:fadeSide 1s ease forwards;
+    animation-delay: 0.7s;
+}
+
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes fadeSide{
+    from {
+        opacity:0;
+        transform:translateX(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+#about{
+    background-image: url("images/Minimalist White-Line Coding Workstation.png");
+    display:flex;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: right   ;
+    
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.about-content{
+    color: whitesmoke;
+    margin-left: 50px;
+    text-align: 70px left;
+    width:50%;
+}
+
+.head2{
+    padding-bottom:100px;
+    text-align: center;
+}
+
+#skills{
+    background-image: url("images/Orbiting Code Technology Icons.png");
+    background-size: 100% auto;
+    background-position: center;
+    display:flex;
+    max-height: 100vh;
+}
+
+.skills-content{
+    color:whitesmoke;
+}
+
+.program{
+    text-align: left;
+}
+
+.tools{
+    text-align:  right;
+}

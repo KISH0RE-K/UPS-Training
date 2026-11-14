@@ -1,53 +1,200 @@
 <html>
-    <head>
-        <title>Portfolio</title>
-    </head>
-    <body>
-        <nav class="navbar">
-            <ul class="nav-links">
-                <li><a href='#home'>Home</a></li>
-                <li><a href='#about'>About</a></li>
-                <li><a href='#projects'>Projects</a></li>
-                <li><a href='#Skills'>Skills</a></li>
-                <li><a href='#Contact'>Contact</a></li>
-            </ul>
-        </nav>
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap");
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 id="name">KISHORE</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-        <section id="home">
-            <h1>Hi, I am Kishore</h1>
-            <h2>Computer Science Engineering Student</h2>
-            <h3>Aspiring Full Stack Developer</h3>
-            <p></p>
-        </section>
+    <section id="home">
+      <div class="home-content">
+        <h1 class="animate">Hi, I am Kishore</h1>
+        <h1 class="animate a1">Computer Science Engineering Student</h1>
+        <h1 class="animate a2">Aspiring Full Stack Developer</h1>
+        <h3 class="animate a3">
+          Building digital experiences, one line of code at a time.
+        </h3>
+      </div>
+    </section>
 
-        <section id="about">
-            <p>I'm a Computer Science and Engineering student passionate about turning ideas into impactful digital experiences.<br> With a strong foundation in Java, JavaScript, React, and Node.js, I enjoy building scalable applications, solving real-world problems, and continuously evolving as a software developer.</p>
-        </section>
-        <section id="skills">
-            <h2>My Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Java</li>
-                <li>OOP</li>
-                <li>SQL</li>
-            </ul>
-        </section>
-        <section id="projects">
-            <h2>My Projects</h2>
-            <article>
+    <section id="about">
+      <div class="about-content">
+        <h1 class="head2">About Me</h1>
 
-            </article>
-        </section>
-        <section id="contacts">
-            <h2>Contact Me</h2>
-            <p>Email:<a href="mailto:kishore.s.kandasamy@gmail.com">Drop me a message.</a></p>
-            <p>Github:<a href="https://github.com/KISH0RE-K">View my projects</a></p>
-        </section>
-    </body>
-    <footer>
-        <p>Turning ideas into code, and code into impact.</p>
-        <p>&copy; 2026 Kishore. All rights reserved.</p>
-    </footer>
+        <h2 class="head3">Who I Am</h2>
+
+        <p>
+          I am Kishore, a Computer Science and Engineering student at Saveetha
+          Engineering College <br />with a passion for software development and
+          building meaningful applications.
+        </p>
+
+        <p>
+          I have a strong foundation in Java, JavaScript, React, and Node.js. I
+          enjoy exploring new technologies,<br />
+          solving real-world problems, and transforming ideas into practical
+          software solutions.
+        </p>
+
+        <h2>My Goals</h2>
+
+        <p>
+          My goal is to become a skilled software developer, build scalable
+          applications, and continuously<br />
+          improve my technical and problem-solving abilities.
+        </p>
+
+        <h2>Beyond Coding</h2>
+
+        <p>
+          I enjoy learning new technologies, working on personal projects, and
+          challenging myself to grow<br />
+          both professionally and personally.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="skills-content">
+        <h2 class="skill">My Skills</h2>
+
+        <p>
+          Here are the technologies and tools I use to build applications and
+          solve problems.
+        </p>
+
+        <div class="program">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+
+        <div class="front">
+          <h3>Frontend Development</h3>
+          <ul>
+            <li>React.js</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Vite</li>
+          </ul>
+        </div>
+
+        <div class="back">
+          <h3>Backend Development</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>REST APIs</li>
+            <li>Socket.IO</li>
+          </ul>
+        </div>
+
+        <div class="tools">
+          <h3>Database & Tools</h3>
+          <ul>
+            <li>MySQL</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+
+        <div class core>
+          <h3>Core Concepts</h3>
+          <ul>
+            <li>Object-Oriented Programming</li>
+            <li>DBMS</li>
+            <li>TCP/IP and UDP Networking</li>
+            <li>Data Structures and Algorithms</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <p>Here are some of the projects I have worked on.</p>
+
+      <article>
+        <h3>LocalLink</h3>
+        <p>
+          A serverless LAN communication platform that enables devices on the
+          same network to discover each other, chat, and transfer files without
+          manual IP configuration.
+        </p>
+
+        <h4>Key Features</h4>
+        <ul>
+          <li>Automatic peer discovery using UDP broadcast</li>
+          <li>Real-time one-to-one and group messaging</li>
+          <li>Peer-to-peer communication using Socket.IO and TCP</li>
+          <li>Chunked file transfer with pause, resume, and cancel controls</li>
+        </ul>
+
+        <p>
+          <strong>Technologies:</strong>
+          Node.js, Express.js, React, Socket.IO, TCP, UDP
+        </p>
+      </article>
+
+      <hr />
+
+      <article>
+        <h3>Ecommerce Website</h3>
+        <p>
+          A React-based ecommerce frontend that provides product browsing, cart
+          management, checkout, and order history with REST API integration.
+        </p>
+
+        <h4>Key Features</h4>
+        <ul>
+          <li>Product listing and dynamic product rendering</li>
+          <li>Shopping cart management and checkout</li>
+          <li>Order history and client-side navigation</li>
+          <li>REST API integration for cart operations and order placement</li>
+        </ul>
+
+        <p>
+          <strong>Technologies:</strong>
+          React, Vite, React Router, Axios, JavaScript
+        </p>
+      </article>
+      <a href="https://github.com/KISH0RE-K"> View on GitHub </a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        Email:<a href="mailto:kishore.s.kandasamy@gmail.com"
+          >Drop me a message.</a
+        >
+      </p>
+      <p>Github:<a href="https://github.com/KISH0RE-K">View my projects</a></p>
+    </section>
+  </body>
+  <footer>
+    <p>Turning ideas into code, and code into impact.</p>
+    <p>&copy; 2026 Kishore. All rights reserved.</p>
+  </footer>
 </html>

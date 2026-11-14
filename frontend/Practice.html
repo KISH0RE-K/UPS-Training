@@ -1,10 +1,20 @@
 <html>
-    <head>
-        <title>Document</title>
-    </head>
-    <body>
-        <video height="400px" width="1000px" controls> 
-            <source src="" type="video/mp4">
-        </video>
-    </body>
+<head>
+    <title>User Input</title>
+</head>
+<body>
+
+    <input type="text" id="userInput" placeholder="Enter something">
+    <button onclick="sendInput()">Send</button>
+
+    <p id="result"></p>
+
+    <script>
+        function sendInput() {
+            let input = document.getElementById("userInput").value;
+            document.getElementById("result").innerText = input;
+        }
+    </script>
+
+</body>
 </html>
